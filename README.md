@@ -34,7 +34,7 @@ Upon running the app, users are greeted with a checklist that allows them to tog
  Users can interact with the app by switching between dark and light modes, and the layout automatically adapts to various screen sizes.
 
 # Components
-Container
+* Container
 This is the main wrapper component for the app that controls the background color, layout, and theme switching based on the toggle prop passed down from the parent component.
 
 * Header
