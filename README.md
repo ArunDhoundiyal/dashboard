@@ -1,7 +1,7 @@
-React Dark/Light Mode Checklist System
+# React Dark/Light Mode Checklist System
 This project is a React-based application that features a simple checklist system with dark and light mode toggling functionality. It showcases various styled components, responsive design, and modern frontend practices using styled-components.
 
-Table of Contents
+# Table of Contents
 Project Overview
 Features
 Technologies Used
