@@ -62,4 +62,7 @@ These components represent textual content related to the checklist rules, condi
 Displays error messages in red color when needed, styled based on the theme (dark or light mode).
 # Deployed Backend Dashboard API in Render 
 * Deployed Backend Dashboard API URL :- https://transition-computing-backend-assignment-q78x.onrender.com
-* Through this API we are sending request by using hook like useEffect in Frontend Client Side to retrieve the Checklist data related to Dashboard. 
+* Through this API we are sending request by using hook like useEffect in Frontend Client Side to retrieve the Checklist data related to Dashboard.
+
+# Deployed the Frontend Dashboard in VERCEL 
+* Deployed URL :- https://dashboard-eight-nu-47.vercel.app/
