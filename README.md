@@ -32,3 +32,31 @@ Upon running the app, users are greeted with a checklist that allows them to tog
 * ListItem: Displays individual checklist items with dynamic background colors based on the theme.
 * ErrorMsg: Displays any error messages in case of issues (e.g., invalid input).
  Users can interact with the app by switching between dark and light modes, and the layout automatically adapts to various screen sizes.
+
+# Components
+Container
+This is the main wrapper component for the app that controls the background color, layout, and theme switching based on the toggle prop passed down from the parent component.
+
+* Header
+A fixed header that contains the title of the app and a toggle button to switch between dark and light themes. It adjusts its appearance based on the toggle prop.
+
+* ChecklistSystem
+The title displayed at the top of the application. The color changes based on the theme.
+
+* ToggleButton
+A button component used for toggling between dark and light modes. It dynamically updates the color based on the toggle prop.
+
+* DashboardHeading
+A dynamic heading that adjusts its font size based on the screen size, making it responsive to smaller screens.
+
+* ListContainer
+A container component that holds a list of checklist items. The list container’s background color is dynamically set based on the toggle prop.
+
+* ListItem
+Each individual checklist item is displayed here. It includes dynamic styling (border color, background color) based on the theme, as well as responsiveness to different screen sizes.
+
+* ChecklistRules, Span, and Condition
+These components represent textual content related to the checklist rules, conditions, and additional text, with dynamic styling based on the theme.
+
+* ErrorMsg
+Displays error messages in red color when needed, styled based on the theme (dark or light mode).
